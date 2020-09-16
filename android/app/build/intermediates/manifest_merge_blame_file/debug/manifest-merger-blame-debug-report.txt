@@ -1,0 +1,134 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.janusots"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:5:5-65
+13-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:5:22-62
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:6:5-60
+15-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:6:19-57
+16    <uses-feature android:name="android.hardware.camera.autofocus" />
+16-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:7:5-69
+16-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:7:19-67
+17
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:8:5-78
+18-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:8:22-76
+19    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+19-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:9:5-80
+19-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:9:22-77
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+20-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:10:5-71
+20-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:10:22-68
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:11:5-68
+21-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:11:22-65
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:12:5-80
+22-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:12:22-78
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+23-->[com.facebook.flipper:flipper:0.37.0] /Users/tajahmed/.gradle/caches/transforms-2/files-2.1/623174cd4892d9fb924ac44b102b25c0/flipper-0.37.0/AndroidManifest.xml:16:5-76
+23-->[com.facebook.flipper:flipper:0.37.0] /Users/tajahmed/.gradle/caches/transforms-2/files-2.1/623174cd4892d9fb924ac44b102b25c0/flipper-0.37.0/AndroidManifest.xml:16:22-73
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+24-->[com.google.android.gms:play-services-iid:17.0.0] /Users/tajahmed/.gradle/caches/transforms-2/files-2.1/61e3e279020c351517b511e7d56d43f0/play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+24-->[com.google.android.gms:play-services-iid:17.0.0] /Users/tajahmed/.gradle/caches/transforms-2/files-2.1/61e3e279020c351517b511e7d56d43f0/play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+25-->[com.android.installreferrer:installreferrer:1.1.2] /Users/tajahmed/.gradle/caches/transforms-2/files-2.1/744c11701aa7144a8d6a8e89bcdad6bd/installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+25-->[com.android.installreferrer:installreferrer:1.1.2] /Users/tajahmed/.gradle/caches/transforms-2/files-2.1/744c11701aa7144a8d6a8e89bcdad6bd/installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+26
+27    <application
+27-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:13:5-32:19
+28        android:name="com.janusots.MainApplication"
+28-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:14:7-38
+29        android:allowBackup="false"
+29-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:18:7-34
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.1.0] /Users/tajahmed/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:16:7-41
+33        android:label="@string/app_name"
+33-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:15:7-39
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:17:7-52
+35        android:theme="@style/AppTheme"
+35-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:19:7-38
+36        android:usesCleartextTraffic="true" >
+36-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/debug/AndroidManifest.xml:7:18-53
+37        <activity
+37-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:20:7-30:18
+38            android:name="com.janusots.MainActivity"
+38-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:21:9-37
+39            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+39-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:23:9-86
+40            android:label="@string/app_name"
+40-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:22:9-41
+41            android:launchMode="singleTask"
+41-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:24:9-40
+42            android:windowSoftInputMode="adjustResize" >
+42-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:25:9-51
+43            <intent-filter>
+43-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:26:9-29:25
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:27:13-65
+44-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:27:21-62
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:28:13-73
+46-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:28:23-70
+47            </intent-filter>
+48        </activity>
+49        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+49-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:31:7-84
+49-->/Users/tajahmed/Projects/sandbox/janus_react_native/android/app/src/main/AndroidManifest.xml:31:17-81
+50
+51        <receiver
+51-->[:react-native-device-info] /Users/tajahmed/Projects/sandbox/janus_react_native/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-22:20
+52            android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
+52-->[:react-native-device-info] /Users/tajahmed/Projects/sandbox/janus_react_native/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-70
+53            android:enabled="true"
+53-->[:react-native-device-info] /Users/tajahmed/Projects/sandbox/janus_react_native/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-35
+54            android:exported="true"
+54-->[:react-native-device-info] /Users/tajahmed/Projects/sandbox/janus_react_native/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-36
+55            android:permission="android.permission.INSTALL_PACKAGES" >
+55-->[:react-native-device-info] /Users/tajahmed/Projects/sandbox/janus_react_native/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-69
+56            <intent-filter>
+56-->[:react-native-device-info] /Users/tajahmed/Projects/sandbox/janus_react_native/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+57                <action android:name="com.android.vending.INSTALL_REFERRER" />
+57-->[:react-native-device-info] /Users/tajahmed/Projects/sandbox/janus_react_native/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-79
+57-->[:react-native-device-info] /Users/tajahmed/Projects/sandbox/janus_react_native/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-76
+58            </intent-filter>
+59        </receiver>
+60
+61        <activity
+61-->[com.google.android.gms:play-services-base:17.0.0] /Users/tajahmed/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+62            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+62-->[com.google.android.gms:play-services-base:17.0.0] /Users/tajahmed/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+63            android:exported="false"
+63-->[com.google.android.gms:play-services-base:17.0.0] /Users/tajahmed/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+64            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+64-->[com.google.android.gms:play-services-base:17.0.0] /Users/tajahmed/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+65
+66        <meta-data
+66-->[com.google.android.gms:play-services-basement:17.0.0] /Users/tajahmed/.gradle/caches/transforms-2/files-2.1/7ccac5eea0d8271fe5cc5c08a64f94d6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+67            android:name="com.google.android.gms.version"
+67-->[com.google.android.gms:play-services-basement:17.0.0] /Users/tajahmed/.gradle/caches/transforms-2/files-2.1/7ccac5eea0d8271fe5cc5c08a64f94d6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+68            android:value="@integer/google_play_services_version" />
+68-->[com.google.android.gms:play-services-basement:17.0.0] /Users/tajahmed/.gradle/caches/transforms-2/files-2.1/7ccac5eea0d8271fe5cc5c08a64f94d6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+69    </application>
+70
+71</manifest>
